@@ -12,7 +12,8 @@
         <activity android:name=".PlantPage" />
         <activity android:name=".MoreInfo" />
         <activity android:name=".QuizResults" />
-        <activity android:name=".Quiz"></activity>
+        <activity android:name=".Quiz" />
+        <activity android:name=".ListOfPlants"></activity>
     </application>
 
 </manifest>
