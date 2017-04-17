@@ -11,19 +11,7 @@
         <item name="PoisonOak">Poison Oak</item>
     </string-array>
 
-    <string-array name="a">
-        <item name="Q1">Which is poison Ivy?</item>
-        <item name="Q2">Which is poison Oak?</item>
-        <item name="Q3">Which is the cure for poison oak?</item>
-        <item name="Q4">Which is the cure for poison Ivy?</item>
-        <item name="Q5">Which is dangerous</item>
-        <item name="Q6">What plant can be found in your backyard?</item>
-        <item name="Q7">Which is not a cure?</item>
-        <item name="Q8">What should you do when you get a rash?</item>
-        <item name="Q9">Which is poison Oak</item>
-        <item name="Q10">Which is poison Oak</item>
 
-    </string-array>
 
     <string-array name="Questions">
         <item name="Q1">How does Poison Ivy spread?</item>
