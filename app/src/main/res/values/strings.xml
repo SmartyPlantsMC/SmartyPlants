@@ -1,0 +1,110 @@
+<resources>
+    <string name="app_name">SmartyPlants</string>
+    <string name="WelcomePage">Welcome to SmartyPlants
+    The fun and educational way for your kids to learn about common plants.
+    Teaches them which to stay away from.</string>
+    <string name="PoisonIvy"> A usually climbing plant that has leaves with three leaflets and can cause an itchy painful rash when touched</string>
+    <string name="PoisonIvyMore">When this oil touches your skin, it often causes an itchy, blistering rash. Make a paste of baking soda.
+        This common household item will work to draw out the poisons in the skin and sooth the rash once it has already formed</string>
+    <string-array name="ListofPlants">
+        <item name="PoisonIvy">Poison Ivy</item>
+        <item name="PoisonOak">Poison Oak</item>
+    </string-array>
+
+    <string-array name="a">
+        <item name="Q1">Which is poison Ivy?</item>
+        <item name="Q2">Which is poison Oak?</item>
+        <item name="Q3">Which is the cure for poison oak?</item>
+        <item name="Q4">Which is the cure for poison Ivy?</item>
+        <item name="Q5">Which is dangerous</item>
+        <item name="Q6">What plant can be found in your backyard?</item>
+        <item name="Q7">Which is not a cure?</item>
+        <item name="Q8">What should you do when you get a rash?</item>
+        <item name="Q9">Which is poison Oak</item>
+        <item name="Q10">Which is poison Oak</item>
+
+    </string-array>
+
+    <string-array name="Questions">
+        <item name="Q1">How does Poison Ivy spread?</item>
+        <item name="Q1A">The plants oil</item>
+        <item name="Q1B">Other people touching you</item>
+        <item name="Q1C">Scratching</item>
+        <item name="Q1D">None of the above</item>
+        <item name="Answer1">The plants oil</item>
+
+        <item name="Q2">Treatment for Poison Oak?</item>
+        <item name="Q2A">Scratching</item>
+        <item name="Q2B">Rubbing</item>
+        <item name="Q2C">Rinsing skin with water</item>
+        <item name="Q2D">None of the above</item>
+        <item name="Answer2">Rinsing skin with water</item>
+
+        <item name="Q3">What is true about Poison ivy? </item>
+        <item name="Q3A">It is contagious</item>
+        <item name="Q3B">Dead Poison ivy is no longer toxic</item>
+        <item name="Q3C">Causes an ichy Rash </item>
+        <item name="Q3D">None of the above</item>
+        <item name="Answer3">Causes an ichy Rash</item>
+
+        <item name="Q4">Poison Oak? </item>
+        <item name="Q4A"> Rock band</item>
+        <item name="Q4B">Poisonous Plant</item>
+        <item name="Q4C">Drug </item>
+        <item name="Q4D">None of the above</item>
+        <item name="Answer4">Poisonous Plant</item>
+
+        <item name="Q5">How do you stop the spread of poison ivy? </item>
+        <item name="Q5A"> Paste</item>
+        <item name="Q5B"> Oil</item>
+        <item name="Q5C">wash off the surface with water or rubbing alcohol.</item>
+        <item name="Q5D">None of the above</item>
+        <item name="Answer5">wash off the surface with water or rubbing alcohol.</item>
+
+        <item name="Q6">How do you get a rash? </item>
+        <item name="Q6A"> Touching leaves</item>
+        <item name="Q6B"> Looking at plants </item>
+        <item name="Q6C">Talking about it </item>
+        <item name="Q6D">None of the above</item>
+        <item name="Answer6">Touching leaves</item>
+
+        <item name="Q7">What is the rash causing agent called? </item>
+        <item name="Q7A">rash</item>
+        <item name="Q7B">ivy</item>
+        <item name="Q7C">urushiol</item>
+        <item name="Q7D">None of the above</item>
+        <item name="Answer7">urushiol</item>
+
+        <item name="Q8">Where is Poison Sumac found? </item>
+        <item name="Q8A">Wetlands</item>
+        <item name="Q8B">Drylands</item>
+        <item name="Q8C">Oceans</item>
+        <item name="Q8D">Artic Areas</item>
+        <item name="Answer8">Wetlands</item>
+
+        <item name="Q9">What is false about Poison Ivy?</item>
+        <item name="Q9A">It changes colors depending on the season</item>
+        <item name="Q9B">It can grow as a bush or vine</item>
+        <item name="Q9C">It sometimes has white berries on it</item>
+        <item name="Q9D">None of the above</item>
+        <item name="Answer9">None of the above</item>
+
+
+        <item name="Q10">How long does a rash USUALLY last?</item>
+        <item name="Q10A">Over a year</item>
+        <item name="Q10B">5-12 Days</item>
+        <item name="Q10C">3 Months</item>
+        <item name="Q10D">None of the above</item>
+        <item name="Answer10">5-12 Days</item>
+
+
+    </string-array>
+    <string name = "Hyacinth">Hyacinthus grows from bulbs, each producing around four to six linear leaves and one to three spikes or racemes of flowers.</string>
+    <string name = "PoisonOak">The leaves are divided into three (rarely 5, 7, or 9) leaflets with scalloped, toothed, or lobed edges.</string>
+    <string name = "Daphne">The flowers lack petals and have four (rarely five) petaloid sepals, tubular at the base with free lobes at the apex.</string>
+    <string name = "Daffodil">The flowers are generally white or yellow (also orange or pink in garden varieties), with either uniform or contrasting coloured tepals and corona.</string>
+
+
+    <string name="QuizDesc">This quiz contains 10 multiple choice questions, 60% and higher is passing</string>
+
+</resources>
