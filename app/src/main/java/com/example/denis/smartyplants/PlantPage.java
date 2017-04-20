@@ -72,6 +72,7 @@ public class PlantPage extends AppCompatActivity {
             pic.setImageResource(R.drawable.ricinus);
             info.setText(getResources().getText(R.string.Ricinus));
         }
+
         else if(plant.equals("6"))
         {
             name.setText("Machineel");
@@ -84,6 +85,7 @@ public class PlantPage extends AppCompatActivity {
             pic.setImageResource(R.drawable.cerbera);
             info.setText(getResources().getText(R.string.Cerbera));
         }
+
 
 
 
