@@ -65,6 +65,7 @@ public class ListOfPlants extends AppCompatActivity {
 
         for (int i=0; i<8;i++){
 
+
             HashMap<String, String> hm=new HashMap<String, String>();
             hm.put("plant_name",plantName[i]);
             hm.put("plant_pic",Integer.toString(plantImage[i]));
