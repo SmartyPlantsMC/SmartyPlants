@@ -73,6 +73,20 @@ public class PlantPage extends AppCompatActivity {
             info.setText(getResources().getText(R.string.Ricinus));
         }
 
+        else if(plant.equals("6"))
+        {
+            name.setText("Machineel");
+            pic.setImageResource(R.drawable.machin);
+            info.setText(getResources().getText(R.string.Machineel));
+        }
+        else if(plant.equals("7"))
+        {
+            name.setText("Cerbera");
+            pic.setImageResource(R.drawable.cerbera);
+            info.setText(getResources().getText(R.string.Cerbera));
+        }
+
+
 
 
 
