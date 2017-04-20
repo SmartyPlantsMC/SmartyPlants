@@ -85,6 +85,22 @@
         <item name="Q10D">None of the above</item>
         <item name="Answer10">5-12 Days</item>
 
+        <item name="Q11">What part of Ricinus is poisonous?</item>
+        <item name="Q11A">Tooth Leaf</item>
+        <item name="Q11B">Venom</item>
+        <item name="Q11C">Beans</item>
+        <item name="Q11D">None of the above</item>
+        <item name="Answer11">Beans</item>
+
+        <item name="Q12">Is it safe to set Cerbera on fire?</item>
+        <item name="Q12A">Yes</item>
+        <item name="Q12B">No</item>
+        <item name="Q12C">Sometimes</item>
+        <item name="Q12D">None of the above</item>
+        <item name="Answer12">No</item>
+
+
+
 
     </string-array>
     <string name="Hyacinth">Hyacinthus grows from bulbs, each producing around four to six linear leaves and one to three spikes or racemes of flowers.</string>
@@ -94,6 +110,12 @@
     <string name="Ricinus">BLANK</string>
     <string name="Machineel">BLANK</string>
     <string name="Cerbera">BLANK</string>
+
+    <string name="Ricinus">The glossy leaves are 45cm in length with tooth segments. Its most poisonous part are its seeds known as Castor beans.</string>
+    <string name="Machineel">Native to North and South America. This tree is poisonous upon consumption, touch, or inhale.</string>
+    <string name="Cerbera"> Located in tropical Asia, Australia, and Madagascar. Cerbera and its alternate leaves are all subject to poison. As well as lighting it on fire would create a poisionous smoke.</string>
+
+   
 
 
     <string name="QuizDesc">This quiz contains 10 multiple choice questions, 60% and higher is passing</string>
