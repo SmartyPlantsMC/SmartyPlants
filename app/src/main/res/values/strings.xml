@@ -91,6 +91,9 @@
     <string name="PoisonOak">The leaves are divided into three (rarely 5, 7, or 9) leaflets with scalloped, toothed, or lobed edges.</string>
     <string name="Daphne">The flowers lack petals and have four (rarely five) petaloid sepals, tubular at the base with free lobes at the apex.</string>
     <string name="Daffodil">The flowers are generally white or yellow (also orange or pink in garden varieties), with either uniform or contrasting coloured tepals and corona.</string>
+    <string name="Ricinus">BLANK</string>
+    <string name="Machineel">BLANK</string>
+    <string name="Cerbera">BLANK</string>
 
 
     <string name="QuizDesc">This quiz contains 10 multiple choice questions, 60% and higher is passing</string>
