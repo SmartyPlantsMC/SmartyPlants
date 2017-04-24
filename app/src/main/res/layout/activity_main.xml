@@ -46,14 +46,17 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Home_Quiz"
-            android:text="Take the Quiz"/>
+            android:text="Take the Quiz"
+            android:onClick="takeQuiz"/>
+
         <Button
             android:layout_marginLeft="70dp"
             android:layout_marginTop="20dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Home_List"
-            android:text="List of Plants"/>
+            android:text="List of Plants"
+            android:onClick="goToPlants"/>
 
 
 

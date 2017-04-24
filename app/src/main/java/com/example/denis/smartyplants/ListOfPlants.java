@@ -10,6 +10,10 @@ import android.widget.Button;
 import android.widget.ListView;
 import android.widget.SimpleAdapter;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -62,6 +66,12 @@ public class ListOfPlants extends AppCompatActivity {
 
         List<HashMap<String, String>> aList=new ArrayList<HashMap<String, String>>();
 
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-7757616415214622");
+
+        AdView mAdView = (AdView) findViewById(R.id.adViewLoP);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
+
 
 
 
@@ -94,4 +104,8 @@ public class ListOfPlants extends AppCompatActivity {
 
     }
 
+    public void back(View view) {
+        Intent intent = new Intent(ListOfPlants.this, MainActivity.class);
+        startActivity(intent);
+    }
 }
