@@ -1,38 +1,34 @@
 package com.example.denis.smartyplants;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.TextView;
 
 import com.example.denis.smartyplants.model.Score;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.storage.FirebaseStorage;
-import com.google.firebase.storage.StorageReference;
+
 
 import static com.example.denis.smartyplants.utils.utils.RESULT;
 
 public class QuizResults extends AppCompatActivity {
     TextView scored;
     DatabaseReference myRef;
-    FirebaseStorage mFirebaseStorage;
-    StorageReference mStorageReference;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_results);
 
-        myRef = FirebaseDatabase.getInstance().getReference();
+        myRef = FirebaseDatabase.getInstance().getReference("scores");
 
         String incomingmsg = getIntent().getStringExtra(RESULT);
         scored = (TextView)findViewById(R.id.score);
 
-
-
         myRef.push().setValue(new Score(incomingmsg));
-        mFirebaseStorage = FirebaseStorage.getInstance();
-        mStorageReference = mFirebaseStorage.getReference();
 
         if(Integer.parseInt(incomingmsg) >= 60)
         {
@@ -45,5 +41,10 @@ public class QuizResults extends AppCompatActivity {
 
 
 
+    }
+
+    public void back(View view) {
+        Intent intent = new Intent(QuizResults.this, MainActivity.class);
+        startActivity(intent);
     }
 }

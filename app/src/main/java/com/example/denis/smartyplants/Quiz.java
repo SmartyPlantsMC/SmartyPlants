@@ -10,6 +10,7 @@ import android.widget.RadioGroup;
 import android.widget.TextView;
 import android.widget.Toast;
 
+
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Random;
@@ -35,7 +36,6 @@ Button submit;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
 
        //Questions = getResources().getStringArray(R.array.Questions);
         Answers = getResources().getStringArray(R.array.Questions);

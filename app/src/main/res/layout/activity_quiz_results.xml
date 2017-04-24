@@ -16,5 +16,12 @@
         android:layout_gravity="center"
         />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/PlantList_Home"
+        android:text="@string/home"
+        android:onClick="back"/>
+
 
 </LinearLayout>
