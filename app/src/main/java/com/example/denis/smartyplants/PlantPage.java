@@ -77,7 +77,7 @@ public class PlantPage extends AppCompatActivity {
         else if(plant.equals("6"))
         {
             name.setText("Ricinus");
-            pic.setImageResource(R.drawable.ricinus);
+            pic.setImageResource(R.drawable.daffodil);
             info.setText(getResources().getText(R.string.Ricinus));
         }
 
