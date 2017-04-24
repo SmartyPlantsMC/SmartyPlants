@@ -133,4 +133,7 @@
     
     <string name="QuizDesc">This quiz contains 10 multiple choice questions, 60% and higher is passing</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="SmartyPlants">SmartyPlants</string>
+    <string name="LoP">List of Plants</string>
+    <string name="takeQuiz">Take the Quiz</string>
 </resources>

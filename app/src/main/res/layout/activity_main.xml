@@ -9,7 +9,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-
+    android:background="@color/SeaGreen"
     tools:context="com.example.denis.smartyplants.MainActivity">
     <LinearLayout
         android:layout_width="wrap_content"
@@ -18,9 +18,10 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginLeft="40dp"
-            android:text="SmartyPlants"
-            android:textSize="30dp"
+            android:layout_gravity="center"
+            android:text="@string/SmartyPlants"
+            android:textColor="@color/White"
+            android:textSize="40dp"
             />
 <ImageView
     android:layout_width="match_parent"
@@ -46,7 +47,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Home_Quiz"
-            android:text="Take the Quiz"
+            android:text="@string/takeQuiz"
             android:onClick="takeQuiz"/>
 
         <Button
@@ -55,7 +56,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/Home_List"
-            android:text="List of Plants"
+            android:text="@string/LoP"
             android:onClick="goToPlants"/>
 
 

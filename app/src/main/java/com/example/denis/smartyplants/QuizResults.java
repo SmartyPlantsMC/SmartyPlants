@@ -14,7 +14,7 @@ import static com.example.denis.smartyplants.utils.utils.RESULT;
 
 public class QuizResults extends AppCompatActivity {
     TextView scored;
-    DatabaseReference reference;
+    DatabaseReference myRef;
     FirebaseStorage mFirebaseStorage;
     StorageReference mStorageReference;
 
@@ -22,15 +22,18 @@ public class QuizResults extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_results);
-        reference = FirebaseDatabase.getInstance().getReference();
+
+        myRef = FirebaseDatabase.getInstance().getReference();
+
         String incomingmsg = getIntent().getStringExtra(RESULT);
         scored = (TextView)findViewById(R.id.score);
 
 
 
-        reference.push().setValue(new Score(incomingmsg));
+        myRef.push().setValue(new Score(incomingmsg));
         mFirebaseStorage = FirebaseStorage.getInstance();
         mStorageReference = mFirebaseStorage.getReference();
+
         if(Integer.parseInt(incomingmsg) >= 60)
         {
             scored.setText("Good job you have passed with a " + incomingmsg);
