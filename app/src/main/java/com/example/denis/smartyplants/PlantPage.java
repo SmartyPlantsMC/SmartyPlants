@@ -66,6 +66,12 @@ public class PlantPage extends AppCompatActivity {
             pic.setImageResource(R.drawable.daffodil);
             info.setText(getResources().getText(R.string.Daffodil));
         }
+        else if (plant.equals("5"))
+        {
+            name.setText("NightShade");
+            pic.setImageResource(R.drawable.nightshade);
+            info.setText(getResources().getText(R.string.Nightshade));
+        }
 
 
 
