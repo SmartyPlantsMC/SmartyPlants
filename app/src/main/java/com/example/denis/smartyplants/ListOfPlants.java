@@ -29,6 +29,14 @@ public class ListOfPlants extends AppCompatActivity {
             "Poison Oak",
             "Daphne Berries",
             "Daffodil"
+            "Nightshade",
+            "Ricinus",
+            "Machineel",
+            "Cerbera"
+
+            
+
+
     };
 
     int[] plantImage=new int[]{
@@ -36,7 +44,14 @@ public class ListOfPlants extends AppCompatActivity {
             R.drawable.hyacinth,
             R.drawable.poisonoak,
             R.drawable.daphne,
-            R.drawable.daffodil
+            R.drawable.daffodil,
+            R.drawable.nightshade,
+            R.drawable.ricinus,
+            R.drawable.machin,
+            R.drawable.cerbera
+
+           
+
     };
 
     @Override
@@ -47,7 +62,14 @@ public class ListOfPlants extends AppCompatActivity {
 
         List<HashMap<String, String>> aList=new ArrayList<HashMap<String, String>>();
 
-        for (int i=0; i<5;i++){
+
+
+
+
+
+        for (int i=0; i<9;i++){
+
+
             HashMap<String, String> hm=new HashMap<String, String>();
             hm.put("plant_name",plantName[i]);
             hm.put("plant_pic",Integer.toString(plantImage[i]));
