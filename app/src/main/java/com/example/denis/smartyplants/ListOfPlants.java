@@ -28,7 +28,7 @@ public class ListOfPlants extends AppCompatActivity {
             "Hyacinth",
             "Poison Oak",
             "Daphne Berries",
-            "Daffodil"
+            "Daffodil",
             "Nightshade",
             "Ricinus",
             "Machineel",
