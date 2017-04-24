@@ -104,6 +104,7 @@
 
 
     </string-array>
+
     
     <string name="Hyacinth">Hyacinthus grows from bulbs, each producing around four to six linear
         leaves and one to three spikes or racemes of flowers.</string>
@@ -122,11 +123,13 @@
 
     <string name="Machineel">Native to North and South America. This tree is poisonous upon
         consumption, touch, or inhale.</string>
-
-    <string name="Cerbera"> Located in tropical Asia, Australia, and Madagascar. Cerbera and its
-        alternate leaves are all subject to poison. As well as lighting it on fire would create a
-        poisionous smoke.</string>
-
+    <string name="Hyacinth">Hyacinthus grows from bulbs, each producing around four to six linear leaves and one to three spikes or racemes of flowers.</string>
+    <string name="PoisonOak">The leaves are divided into three (rarely 5, 7, or 9) leaflets with scalloped, toothed, or lobed edges.</string>
+    <string name="Daphne">The flowers lack petals and have four (rarely five) petaloid sepals, tubular at the base with free lobes at the apex.</string>
+    <string name="Daffodil">The flowers are generally white or yellow (also orange or pink in garden varieties), with either uniform or contrasting coloured tepals and corona.</string>
+    <string name="Ricinus">The glossy leaves are 45cm in length with tooth segments. Its most poisonous part are its seeds known as Castor beans.</string>
+    <string name="Machineel">Native to North and South America. This tree is poisonous upon consumption, touch, or inhale.</string>
+    <string name="Cerbera"> Located in tropical Asia, Australia, and Madagascar. Cerbera and its alternate leaves are all subject to poison. As well as lighting it on fire would create a poisionous smoke.</string>
     <string name="Nightshade">Also known as "Deadly Nightshade", it is one of the most poisonous
         plants in the world. Consuming can be fatal. Intense digestive disturbance and nervous symptoms.</string>
     
