@@ -28,13 +28,14 @@ public class ListOfPlants extends AppCompatActivity {
             "Hyacinth",
             "Poison Oak",
             "Daphne Berries",
-            "Daffodil",
-
+            "Daffodil"
+            "Nightshade",
             "Ricinus",
             "Machineel",
             "Cerbera"
 
             
+
 
     };
 
@@ -44,7 +45,7 @@ public class ListOfPlants extends AppCompatActivity {
             R.drawable.poisonoak,
             R.drawable.daphne,
             R.drawable.daffodil,
-
+            R.drawable.nightshade,
             R.drawable.ricinus,
             R.drawable.machin,
             R.drawable.cerbera
@@ -63,7 +64,10 @@ public class ListOfPlants extends AppCompatActivity {
 
 
 
-        for (int i=0; i<8;i++){
+
+
+
+        for (int i=0; i<9;i++){
 
 
             HashMap<String, String> hm=new HashMap<String, String>();

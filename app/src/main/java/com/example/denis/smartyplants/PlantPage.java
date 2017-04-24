@@ -66,25 +66,34 @@ public class PlantPage extends AppCompatActivity {
             pic.setImageResource(R.drawable.daffodil);
             info.setText(getResources().getText(R.string.Daffodil));
         }
-        else if(plant.equals("5"))
+
+        else if (plant.equals("5"))
+        {
+            name.setText("NightShade");
+            pic.setImageResource(R.drawable.nightshade);
+            info.setText(getResources().getText(R.string.Nightshade));
+        }
+
+        else if(plant.equals("6"))
         {
             name.setText("Ricinus");
             pic.setImageResource(R.drawable.ricinus);
             info.setText(getResources().getText(R.string.Ricinus));
         }
 
-        else if(plant.equals("6"))
+        else if(plant.equals("7"))
         {
             name.setText("Machineel");
             pic.setImageResource(R.drawable.machin);
             info.setText(getResources().getText(R.string.Machineel));
         }
-        else if(plant.equals("7"))
+        else if(plant.equals("8"))
         {
             name.setText("Cerbera");
             pic.setImageResource(R.drawable.cerbera);
             info.setText(getResources().getText(R.string.Cerbera));
         }
+
 
 
 
