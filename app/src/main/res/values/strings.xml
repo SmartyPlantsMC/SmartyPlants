@@ -4,6 +4,13 @@
     The fun and educational way for your kids to learn about common plants.
     Teaches them which to stay away from.</string>
     <string name="PoisonIvy"> A usually climbing plant that has leaves with three leaflets and can cause an itchy painful rash when touched</string>
+    <string name="RicinusMore">Location: Eastern Africa and India.
+                                    Found in suitable climates and can be an ivasive plant.</string>
+    <string name="CerberaMore">Location: Madagascar.
+                                Grows to 12 meters.</string>
+    <string name="MachineelMore">Location: North and South America.
+                                    Part of the 'Spurge' family.</string>
+
     <string name="PoisonIvyMore">When this oil touches your skin, it often causes an itchy, blistering rash. Make a paste of baking soda.
         This common household item will work to draw out the poisons in the skin and sooth the rash once it has already formed</string>
     <string-array name="ListofPlants">
