@@ -36,7 +36,8 @@ public class ListOfPlants extends AppCompatActivity {
             "Nightshade",
             "Ricinus",
             "Machineel",
-            "Cerbera"
+            "Cerbera",
+            "Angel's Trumpet"
 
             
 
@@ -52,7 +53,8 @@ public class ListOfPlants extends AppCompatActivity {
             R.drawable.nightshade,
             R.drawable.ricinus,
             R.drawable.machin,
-            R.drawable.cerbera
+            R.drawable.cerbera,
+            R.drawable.angeltrumpet
 
            
 
@@ -77,7 +79,7 @@ public class ListOfPlants extends AppCompatActivity {
 
 
 
-        for (int i=0; i<9;i++){
+        for (int i=0; i<10;i++){
 
 
             HashMap<String, String> hm=new HashMap<String, String>();

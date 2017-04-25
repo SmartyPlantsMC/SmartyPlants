@@ -93,6 +93,12 @@ public class PlantPage extends AppCompatActivity {
             pic.setImageResource(R.drawable.cerbera);
             info.setText(getResources().getText(R.string.Cerbera));
         }
+        else if(plant.equals("9"))
+        {
+            name.setText("Angel's Trumpet");
+            pic.setImageResource(R.drawable.angeltrumpet);
+            info.setText(getResources().getText(R.string.AngelsTrumpet));
+        }
 
 
 

@@ -1,8 +1,9 @@
 <resources>
     <string name="app_name">SmartyPlants</string>
-    <string name="WelcomePage">Welcome to SmartyPlants
-    The fun and educational way for your kids to learn about common plants.
-    Teaches them which to stay away from.</string>
+    <string name="WelcomePage">Welcome to SmartyPlants!
+    The fun and educational way for kids to learn about common plants, and which to stay away from.</string>
+
+
     <string name="PoisonIvy"> A usually climbing plant that has leaves with three leaflets and can cause an itchy painful rash when touched</string>
     <string name="RicinusMore">Location: Eastern Africa and India.
                                     Found in suitable climates and can be an ivasive plant.</string>
@@ -134,13 +135,19 @@
     <string name="Cerbera"> Cerbera and its
         alternate leaves are all subject to poison. As well as lighting it on fire would create a
         poisionous smoke.</string>
-    
+
     <string name="Nightshade">Also known as "Deadly Nightshade", it is one of the most poisonous
         plants in the world. Consuming can be fatal. Intense digestive disturbance and nervous symptoms.</string>
+
+    <string name="AngelsTrumpet">Botanists will tell you that members of the genus Brugmansia get their nickname,
+        "Angel's Trumpet," from their large, hanging, trumpet-shaped flowers, which can measure up to 50cm long
+        and 35cm wide at their openings. </string>
     
-    <string name="QuizDesc">This quiz contains 10 multiple choice questions, 60% and higher is passing</string>
+    <string name="QuizDesc">This quiz contains 10 randomly selected multiple choice questions based on the
+        plants found in this app.</string>
     <string name="banner_ad_unit_id">ca-app-pub-3940256099942544/6300978111</string>
     <string name="SmartyPlants">SmartyPlants</string>
+    <string name="MoreInfo">More Info</string>
     <string name="LoP">List of Plants</string>
     <string name="takeQuiz">Take the Quiz</string>
     <string name="home">Home Page</string>
