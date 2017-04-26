@@ -28,7 +28,7 @@ public class QuizResults extends AppCompatActivity {
 
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-7757616415214622");
 
-        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdView mAdView = (AdView) findViewById(R.id.adViewQR);
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
