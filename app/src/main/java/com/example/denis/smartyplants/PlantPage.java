@@ -8,12 +8,14 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import static android.R.id.message;
 import static com.example.denis.smartyplants.utils.utils.PLANT;
 
 public class PlantPage extends AppCompatActivity {
     TextView info , name;
     ImageView pic;
     Button PlantList;
+    String message;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -31,7 +33,7 @@ public class PlantPage extends AppCompatActivity {
 
             }
         });
-        String message = getIntent().getStringExtra(PLANT);
+        message = getIntent().getStringExtra(PLANT);
         plantPicker(message);
     }
     void plantPicker(String plant)
@@ -107,5 +109,10 @@ public class PlantPage extends AppCompatActivity {
 
     }
 
+    public void goToMoreInfo(View view) {
+        Intent intent = new Intent(PlantPage.this, MoreInfo.class);
+        intent.putExtra(PLANT,message);
+        startActivity(intent);
+    }
 }
 

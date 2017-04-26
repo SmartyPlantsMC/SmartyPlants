@@ -54,7 +54,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:id="@+id/PlantPage_Moreinfo"
-
+            android:onClick="goToMoreInfo"
             android:text="More info"/>
     </LinearLayout>
 
