@@ -1,14 +1,18 @@
 package com.example.denis.smartyplants;
 
+import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import static com.example.denis.smartyplants.utils.utils.PLANT;
 
 public class MoreInfo extends AppCompatActivity {
     TextView Moreinfo , MoreInfoname;
     ImageView MoreInfopic;
-
+    String msg;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -16,9 +20,11 @@ public class MoreInfo extends AppCompatActivity {
         Moreinfo = (TextView)findViewById(R.id.MoreInfo_Desc);
         MoreInfopic = (ImageView)findViewById(R.id.MoreInfo_Pic);
         MoreInfoname = (TextView)findViewById(R.id.NameOfPlant);
+        msg = getIntent().getStringExtra(PLANT);
+        plantPickerMoreInfo(msg);
     }
 
-    void plantPicker(String plant)
+    void plantPickerMoreInfo(String plant)
     {
         if(plant.equals("0"))
         {
@@ -50,14 +56,12 @@ public class MoreInfo extends AppCompatActivity {
             MoreInfopic.setImageResource(R.drawable.daffodil);
             Moreinfo.setText(getResources().getText(R.string.Daffodil));
         }
-
         else if (plant.equals("5"))
         {
             MoreInfoname.setText("NightShade");
             MoreInfopic.setImageResource(R.drawable.nightshade);
             Moreinfo.setText(getResources().getText(R.string.Nightshade));
         }
-
         else if(plant.equals("6"))
         {
             MoreInfoname.setText("Ricinus");
@@ -84,11 +88,15 @@ public class MoreInfo extends AppCompatActivity {
             Moreinfo.setText(getResources().getText(R.string.AngelsTrumpet));
         }
 
-
-
-
-
-
     }
 
+    public void goToPlantPage(View view) {
+        Intent intent = new Intent(MoreInfo.this, PlantPage.class);
+        startActivity(intent);
+    }
+
+    public void goToHomePage(View view) {
+        Intent intent2 = new Intent(MoreInfo.this, MainActivity.class);
+        startActivity(intent2);
+    }
 }

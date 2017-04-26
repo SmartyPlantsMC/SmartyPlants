@@ -9,7 +9,7 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    android:background="@color/SeaGreen"
+    android:background="@drawable/backgroundma"
     tools:context="com.example.denis.smartyplants.MoreInfo">
 
 
@@ -52,12 +52,14 @@
             android:id="@+id/MoreInfo_Home"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:onClick="goToHomePage"
             android:text="Home Page" />
 
         <Button
             android:id="@+id/MoreInfo_Back"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:onClick="goToPlantPage"
             android:text="Back" />
 
     </LinearLayout>
