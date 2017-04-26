@@ -36,6 +36,9 @@ public class PlantPage extends AppCompatActivity {
         message = getIntent().getStringExtra(PLANT);
         plantPicker(message);
     }
+    //PlantPicker for the Plant page
+    //This function takes the string value from incoming message from the List of plant page
+    //Depending on the value it receives, it will pick the text, image, and the info about the plant
     void plantPicker(String plant)
     {
         if(plant.equals("0"))
@@ -108,7 +111,8 @@ public class PlantPage extends AppCompatActivity {
 
 
     }
-
+    //Takes the value of the current plant the user is on
+    //Takes them to the more info page that shows the user more info on the plant they're currently looking at
     public void goToMoreInfo(View view) {
         Intent intent = new Intent(PlantPage.this, MoreInfo.class);
         intent.putExtra(PLANT,message);

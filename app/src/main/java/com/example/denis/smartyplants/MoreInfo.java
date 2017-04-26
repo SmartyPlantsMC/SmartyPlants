@@ -23,7 +23,9 @@ public class MoreInfo extends AppCompatActivity {
         msg = getIntent().getStringExtra(PLANT);
         plantPickerMoreInfo(msg);
     }
-
+    //PlantPicker for the more info page
+    //This function takes the string value from incoming message from the List of plant page
+    //Depending on the value it receives, it will pick the text, image, and the info about the plant
     void plantPickerMoreInfo(String plant)
     {
         if(plant.equals("0"))
@@ -89,12 +91,12 @@ public class MoreInfo extends AppCompatActivity {
         }
 
     }
-
+    //Button that lets the user go to the plant page
     public void goToPlantPage(View view) {
         Intent intent = new Intent(MoreInfo.this, PlantPage.class);
         startActivity(intent);
     }
-
+    //Button that lets the user go to the home page
     public void goToHomePage(View view) {
         Intent intent2 = new Intent(MoreInfo.this, MainActivity.class);
         startActivity(intent2);

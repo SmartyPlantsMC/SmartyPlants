@@ -37,10 +37,10 @@ Button submit;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-       //Questions = getResources().getStringArray(R.array.Questions);
+        //The answer array contains the String array of questions which is all the questions and answers
         Answers = getResources().getStringArray(R.array.Questions);
 
-
+        //adds the values of 0-10 to the list
         setContentView(R.layout.activity_quiz);
         for(int w = 0; w<10; w++)
         {
@@ -48,9 +48,9 @@ Button submit;
         }
 
 
-
+        //Takes the list and shuffles the current numbers it has into a random order
         Collections.shuffle(list);
-
+        //Radio groups for the 10 quiz questions
         Q1 = (RadioGroup)findViewById(R.id.Q1group);
 
         Q2 = (RadioGroup)findViewById(R.id.Q2group);
@@ -63,6 +63,7 @@ Button submit;
         Q9 = (RadioGroup)findViewById(R.id.Q9group);
         Q10 = (RadioGroup)findViewById(R.id.Q10group);
 
+        //The questions for the 10 quiz questions which are always randomly selected
         quest1 = (TextView)findViewById(R.id.Quiz_question);
         quest2 = (TextView)findViewById(R.id.Quiz_question2);
         quest3=(TextView)findViewById(R.id.Quiz_question3);
@@ -75,7 +76,9 @@ Button submit;
         quest10 = (TextView)findViewById(R.id.Quiz_question10);
 
 
-
+        //Calls the questionPicker function and selects a random number from the list array
+        //That random number is multiplied by 6 so that the string array comes back with 6 elements
+        //The question, the 4 choices, and the answer
             QuestionPicker(Q1, list.get(0) *6, quest1);
             QuestionPicker(Q2, list.get(1)* 6, quest2);
             QuestionPicker(Q3, list.get(2)* 6, quest3);
@@ -87,7 +90,7 @@ Button submit;
             QuestionPicker(Q9, list.get(8)* 6, quest9);
              QuestionPicker(Q10,list.get(9)* 6, quest10);
 
-
+        //The submit button takes the user to that gradeQuiz function
         submit = (Button)findViewById(R.id.Submit);
         submit.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -99,6 +102,10 @@ Button submit;
         });
 
     }
+    //The questionPicker function takes the 6 elements it receives from the string array and splits them
+    //The question gets put in a the question textView
+    //The four choices get assigned to 4 radio button texts
+    //The answer is stored and then compared to the users choice radiobutton's value
     void QuestionPicker(RadioGroup quizgroup,int y, TextView quizQuestions)
     {
 
@@ -130,6 +137,7 @@ Button submit;
         //quest1.setText(Questions[0]);
 
     }
+    //The check array contains all the values for the users choices for each radiogroup
     void gradeQuiz()
     {
 
@@ -146,7 +154,8 @@ Button submit;
         check[9] =(Q10.getCheckedRadioButtonId());
 
 
-
+        //This loop goes through the 10 answers the user has selected and the 10 current answers
+        //It awards the user 10 points for each current answer
         for(int i = 0; i<10; i++)
         {
             radiobtn = (RadioButton)findViewById(check[i]);
@@ -156,7 +165,7 @@ Button submit;
             }
         }
 
-
+        //It then takes the result and takes the user to the QuizResult page with that score
         Intent intent = new Intent(Quiz.this, QuizResults.class);
         intent.putExtra(RESULT,Integer.toString(score));
         startActivity(intent);

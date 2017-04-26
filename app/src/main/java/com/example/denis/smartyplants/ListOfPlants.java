@@ -27,6 +27,7 @@ public class ListOfPlants extends AppCompatActivity {
     ArrayAdapter<String> adapter;
     ArrayList<String> listOfPlants = new ArrayList<>();
 
+    // A string array with all the plant names
     String[] plantName=new String[]{
             "Poison Ivy",
             "Hyacinth",
@@ -67,6 +68,7 @@ public class ListOfPlants extends AppCompatActivity {
         mListView = (ListView) findViewById(R.id.Plant_list);
 
         List<HashMap<String, String>> aList=new ArrayList<HashMap<String, String>>();
+        //Creates the ad banner for the adMob
 
         MobileAds.initialize(getApplicationContext(), "ca-app-pub-7757616415214622");
 
@@ -106,7 +108,7 @@ public class ListOfPlants extends AppCompatActivity {
         androidListView.setAdapter(simpleAdapter);
 
     }
-
+    //Button that lets the user go back to the home page
     public void back(View view) {
         Intent intent = new Intent(ListOfPlants.this, MainActivity.class);
         startActivity(intent);

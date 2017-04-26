@@ -21,6 +21,7 @@
         android:layout_height="wrap_content"
         android:textSize="20dp"
         android:id="@+id/Quiz_desc"
+        android:textColor="@color/Black"
         android:text="@string/QuizDesc"/>
 
     <TextView
@@ -29,6 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question"/>
 
     <RadioGroup
@@ -37,16 +39,20 @@
         android:id="@+id/Q1group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"/>
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -54,6 +60,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="20dp"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question2"/>
 
     <RadioGroup
@@ -62,21 +69,26 @@
         android:id="@+id/Q2group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
         android:text="Question3"
         android:textSize="20dp"
+        android:textColor="@color/Black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/Quiz_question3"/>
@@ -84,19 +96,24 @@
     <RadioGroup
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+
         android:id="@+id/Q3group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -104,6 +121,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question4"/>
 
     <RadioGroup
@@ -112,16 +130,20 @@
         android:id="@+id/Q4group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -129,6 +151,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question5"/>
 
     <RadioGroup
@@ -137,16 +160,20 @@
         android:id="@+id/Q5group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -154,6 +181,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question6"/>
 
     <RadioGroup
@@ -162,16 +190,20 @@
         android:id="@+id/Q6group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -179,6 +211,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question7"/>
 
     <RadioGroup
@@ -187,16 +220,20 @@
         android:id="@+id/Q7group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -204,6 +241,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question8"/>
 
     <RadioGroup
@@ -212,16 +250,20 @@
         android:id="@+id/Q8group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -229,6 +271,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question9"/>
 
     <RadioGroup
@@ -237,16 +280,20 @@
         android:id="@+id/Q9group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <TextView
         android:layout_marginTop="50dp"
@@ -254,6 +301,7 @@
         android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:textColor="@color/Black"
         android:id="@+id/Quiz_question10"/>
 
     <RadioGroup
@@ -262,16 +310,20 @@
         android:id="@+id/Q10group">
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
         <RadioButton
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:textColor="@color/Black"/>
     </RadioGroup>
     <LinearLayout
         android:gravity="center"
@@ -284,6 +336,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Home Page"
+            android:background="@color/SeaGreen"
             android:id="@+id/Quiz_Home"/>
 
         <Button
@@ -291,6 +344,7 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:id="@+id/Submit"
+            android:background="@color/SeaGreen"
             android:text="Submit"/>
 
     </LinearLayout>
