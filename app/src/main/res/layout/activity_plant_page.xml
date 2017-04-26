@@ -27,7 +27,7 @@
         android:layout_gravity="center" />
 
     <TextView
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/PlantPage_Desc"
@@ -43,9 +43,9 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
         <Button
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="150dp"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:id="@+id/PlantPage_PlantList"
             android:background="@color/SeaGreen"
             android:text="Plant List"
@@ -53,15 +53,16 @@
             />
         <Button
             android:layout_marginLeft="10dp"
-            android:layout_marginTop="20dp"
+            android:layout_marginTop="10dp"
             android:layout_width="150dp"
-            android:layout_height="60dp"
+            android:layout_height="40dp"
             android:id="@+id/PlantPage_Moreinfo"
             android:onClick="goToMoreInfo"
             android:background="@color/SeaGreen"
             android:text="More info"/>
     </LinearLayout>
     <com.google.android.gms.ads.AdView
+        android:layout_marginTop="10dp"
         android:id="@+id/adViewPP"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"

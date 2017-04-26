@@ -31,11 +31,12 @@
         android:layout_width="match_parent"
         android:layout_height="260dp"
         android:id="@+id/MoreInfo_Pic"
-        android:src="@drawable/identifypoisonivy"/>
+        />
 
     <TextView
 
         android:id="@+id/MoreInfo_Desc"
+        android:textColor="@color/Black"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/PoisonIvyMore" />
@@ -69,6 +70,7 @@
 
     </LinearLayout>
     <com.google.android.gms.ads.AdView
+        android:layout_marginTop="20dp"
         android:id="@+id/adViewMI"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
