@@ -7,6 +7,9 @@ import android.view.View;
 import android.widget.TextView;
 
 import com.example.denis.smartyplants.model.Score;
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 
@@ -22,6 +25,12 @@ public class QuizResults extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_quiz_results);
+
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-7757616415214622");
+
+        AdView mAdView = (AdView) findViewById(R.id.adView);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
 
         myRef = FirebaseDatabase.getInstance().getReference("scores");
 
