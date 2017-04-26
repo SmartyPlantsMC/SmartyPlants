@@ -4,6 +4,7 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.example.denis.smartyplants.model.Score;
@@ -19,7 +20,7 @@ import static com.example.denis.smartyplants.utils.utils.RESULT;
 public class QuizResults extends AppCompatActivity {
     TextView scored;
     DatabaseReference myRef;
-
+    ImageView scorePic;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -36,16 +37,18 @@ public class QuizResults extends AppCompatActivity {
 
         String incomingmsg = getIntent().getStringExtra(RESULT);
         scored = (TextView)findViewById(R.id.score);
-
+        scorePic = (ImageView)findViewById(R.id.ScorePic);
         myRef.push().setValue(new Score(incomingmsg));
 
         if(Integer.parseInt(incomingmsg) >= 60)
         {
             scored.setText("Good job you have passed with a " + incomingmsg);
+            scorePic.setImageResource(R.drawable.goodgrade);
         }
         else
         {
             scored.setText("Sorry you have only received a " + incomingmsg + " better luck next time");
+            scorePic.setImageResource(R.drawable.badgrade);
         }
 
 

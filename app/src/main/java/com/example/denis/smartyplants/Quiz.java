@@ -160,7 +160,7 @@ Button submit;
         Intent intent = new Intent(Quiz.this, QuizResults.class);
         intent.putExtra(RESULT,Integer.toString(score));
         startActivity(intent);
-        Toast.makeText(Quiz.this," " + Q1.getCheckedRadioButtonId(), Toast.LENGTH_SHORT).show();
+
 
     }
 
