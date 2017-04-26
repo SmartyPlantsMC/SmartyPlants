@@ -39,62 +39,62 @@ public class MoreInfo extends AppCompatActivity {
     {
         if(plant.equals("0"))
         {
-            MoreInfoname.setText("Poison Ivy");
+            MoreInfoname.setText(R.string.PoisonIvyName);
             MoreInfopic.setImageResource(R.drawable.poisonivy);
             Moreinfo.setText(getResources().getText(R.string.PoisonIvy));
         }
         else if(plant.equals("1"))
         {
-            MoreInfoname.setText("Hyacinth");
+            MoreInfoname.setText(R.string.HyacinthName);
             MoreInfopic.setImageResource(R.drawable.hyacinth);
             Moreinfo.setText(getResources().getText(R.string.Hyacinth));
         }
         else if(plant.equals("2"))
         {
-            MoreInfoname.setText("Poison Oak");
+            MoreInfoname.setText(R.string.PoisonOakName);
             MoreInfopic.setImageResource(R.drawable.poisonoak);
             Moreinfo.setText(getResources().getText(R.string.PoisonOak));
         }
         else if(plant.equals("3"))
         {
-            MoreInfoname.setText("Daphne");
+            MoreInfoname.setText(R.string.DaphneName);
             MoreInfopic.setImageResource(R.drawable.daphne);
             Moreinfo.setText(getResources().getText(R.string.Daphne));
         }
         else if(plant.equals("4"))
         {
-            MoreInfoname.setText("Daffodil");
+            MoreInfoname.setText(R.string.DaffodilName);
             MoreInfopic.setImageResource(R.drawable.daffodil);
             Moreinfo.setText(getResources().getText(R.string.Daffodil));
         }
         else if (plant.equals("5"))
         {
-            MoreInfoname.setText("NightShade");
-            MoreInfopic.setImageResource(R.drawable.nightshade);
-            Moreinfo.setText(getResources().getText(R.string.Nightshade));
+            MoreInfoname.setText(R.string.NightshadeName);
+            MoreInfopic.setImageResource(R.drawable.nightshademore);
+            Moreinfo.setText(getResources().getText(R.string.NightShadeMore));
         }
         else if(plant.equals("6"))
         {
-            MoreInfoname.setText("Ricinus");
-            MoreInfopic.setImageResource(R.drawable.daffodil);
+            MoreInfoname.setText(R.string.RicinusName);
+            MoreInfopic.setImageResource(R.drawable.ricinus);
             Moreinfo.setText(getResources().getText(R.string.Ricinus));
         }
 
         else if(plant.equals("7"))
         {
-            MoreInfoname.setText("Machineel");
+            MoreInfoname.setText(R.string.MachineeName);
             MoreInfopic.setImageResource(R.drawable.machin);
             Moreinfo.setText(getResources().getText(R.string.Machineel));
         }
         else if(plant.equals("8"))
         {
-            MoreInfoname.setText("Cerbera");
+            MoreInfoname.setText(R.string.CerberaName);
             MoreInfopic.setImageResource(R.drawable.cerbera);
             Moreinfo.setText(getResources().getText(R.string.Cerbera));
         }
         else if(plant.equals("9"))
         {
-            MoreInfoname.setText("Angel's Trumpet");
+            MoreInfoname.setText(R.string.AngelsTrumpetName);
             MoreInfopic.setImageResource(R.drawable.angeltrumpet);
             Moreinfo.setText(getResources().getText(R.string.AngelsTrumpet));
         }

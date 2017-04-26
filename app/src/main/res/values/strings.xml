@@ -14,11 +14,21 @@
 
     <string name="PoisonIvyMore">When this oil touches your skin, it often causes an itchy, blistering rash. Make a paste of baking soda.
         This common household item will work to draw out the poisons in the skin and sooth the rash once it has already formed</string>
-    <string-array name="ListofPlants">
-        <item name="Nightshade">Nightshade</item>
-        <item name="PoisonIvy">Poison Ivy</item>
-        <item name="PoisonOak">Poison Oak</item>
-    </string-array>
+    <string name ="NightShadeMore"> its shiny black berries are perhaps a temptation to children, but fatal in even small doses. Found mainly on chalky and limestone soils, particularly on recently disturbed ground,
+        this bushy perennial has bell-shaped flowers that appear from June to August.</string>
+
+
+        <string name="NightshadeName">Nightshade</string>
+        <string name="PoisonIvyName">Poison Ivy</string>
+        <string name="MachineeName">Machinee</string>
+        <string name="CerberaName">Cerbera</string>
+        <string name="RicinusName">Ricinus</string>
+        <string name="PoisonOakName">Poison Oak</string>
+        <string name="DaffodilName">Daffodil</string>
+        <string name="AngelsTrumpetName">Angels Trumpet</string>
+        <string name="DaphneName">Daphne</string>
+        <string name="HyacinthName">Hyacinth</string>
+
 
 
 
