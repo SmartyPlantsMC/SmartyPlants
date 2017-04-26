@@ -33,11 +33,15 @@ public class QuizResults extends AppCompatActivity {
         AdRequest adRequest = new AdRequest.Builder().build();
         mAdView.loadAd(adRequest);
 
+        //Creates a reference in firebase that puts the result of the quizzes under 'scores'
         myRef = FirebaseDatabase.getInstance().getReference("scores");
 
         String incomingmsg = getIntent().getStringExtra(RESULT);
         scored = (TextView)findViewById(R.id.score);
         scorePic = (ImageView)findViewById(R.id.ScorePic);
+
+        //Pushes the users score to the firebase and creates
+        // a new score each time instead of replacing the old one
         myRef.push().setValue(new Score(incomingmsg));
 
         if(Integer.parseInt(incomingmsg) >= 60)

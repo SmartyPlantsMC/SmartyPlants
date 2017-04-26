@@ -78,7 +78,8 @@ public class ListOfPlants extends AppCompatActivity {
 
 
 
-
+        //  Creates a hashmap that displays both the
+        //  name of the plant and its image on one line of the list view
         for (int i=0; i<10;i++){
 
 
