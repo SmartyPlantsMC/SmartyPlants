@@ -173,4 +173,8 @@ Button submit;
 
     }
 
+    public void goToHomePage2(View view) {
+        Intent intent = new Intent(Quiz.this, MainActivity.class);
+        startActivity(intent);
+    }
 }

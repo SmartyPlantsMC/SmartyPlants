@@ -8,6 +8,10 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import static android.R.id.message;
 import static com.example.denis.smartyplants.utils.utils.PLANT;
 
@@ -21,6 +25,11 @@ public class PlantPage extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_plant_page);
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-7757616415214622");
+
+        AdView mAdView = (AdView) findViewById(R.id.adViewPP);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         info = (TextView)findViewById(R.id.PlantPage_Desc);
         pic = (ImageView)findViewById(R.id.PlantPage_Image);
         name = (TextView)findViewById(R.id.NameOfPlant);

@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
@@ -21,8 +22,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="@string/MoreInfo"
-            android:textColor="@color/White"
+
+            android:id="@+id/MoreInfoPlantName"
+            android:textColor="@color/Black"
             android:textSize="40dp"
             />
     <ImageView
@@ -42,16 +44,17 @@
 
 
     <LinearLayout
-        android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="40dp"
+        android:gravity="center"
         android:orientation="horizontal">
 
         <Button
             android:id="@+id/MoreInfo_Home"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:background="@color/SeaGreen"
             android:onClick="goToHomePage"
             android:text="Home Page" />
 
@@ -59,10 +62,20 @@
             android:id="@+id/MoreInfo_Back"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:background="@color/SeaGreen"
             android:onClick="goToPlantPage"
             android:text="Back" />
 
     </LinearLayout>
+    <com.google.android.gms.ads.AdView
+        android:id="@+id/adViewMI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#07000000"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id">
+    </com.google.android.gms.ads.AdView>
 
 
 </LinearLayout>

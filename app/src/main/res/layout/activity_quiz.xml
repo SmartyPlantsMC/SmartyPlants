@@ -337,10 +337,11 @@
             android:layout_height="wrap_content"
             android:text="Home Page"
             android:background="@color/SeaGreen"
+            android:onClick="goToHomePage2"
             android:id="@+id/Quiz_Home"/>
 
         <Button
-
+            android:layout_marginLeft="10dp"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:id="@+id/Submit"

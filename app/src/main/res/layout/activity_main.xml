@@ -36,6 +36,7 @@
         android:layout_height="wrap_content"
         android:textAlignment="center"
         android:id="@+id/Home_Text"
+        android:textColor="@color/Black"
         android:text="@string/WelcomePage"/>
 
 
@@ -46,16 +47,18 @@
 
         <Button
             android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:id="@+id/Home_Quiz"
             android:text="@string/takeQuiz"
+            android:background="@color/SeaGreen"
             android:onClick="takeQuiz"/>
 
         <Button
             android:layout_marginLeft="70dp"
             android:layout_marginTop="20dp"
-            android:layout_width="wrap_content"
+            android:background="@color/SeaGreen"
+            android:layout_width="120dp"
             android:layout_height="wrap_content"
             android:id="@+id/Home_List"
             android:text="@string/LoP"

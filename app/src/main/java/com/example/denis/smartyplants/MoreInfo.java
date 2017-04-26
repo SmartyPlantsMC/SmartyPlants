@@ -7,6 +7,10 @@ import android.view.View;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.google.android.gms.ads.AdRequest;
+import com.google.android.gms.ads.AdView;
+import com.google.android.gms.ads.MobileAds;
+
 import static com.example.denis.smartyplants.utils.utils.PLANT;
 
 public class MoreInfo extends AppCompatActivity {
@@ -17,9 +21,14 @@ public class MoreInfo extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_more_info);
+        MobileAds.initialize(getApplicationContext(), "ca-app-pub-7757616415214622");
+
+        AdView mAdView = (AdView) findViewById(R.id.adViewMI);
+        AdRequest adRequest = new AdRequest.Builder().build();
+        mAdView.loadAd(adRequest);
         Moreinfo = (TextView)findViewById(R.id.MoreInfo_Desc);
         MoreInfopic = (ImageView)findViewById(R.id.MoreInfo_Pic);
-        MoreInfoname = (TextView)findViewById(R.id.NameOfPlant);
+        MoreInfoname = (TextView)findViewById(R.id.MoreInfoPlantName);
         msg = getIntent().getStringExtra(PLANT);
         plantPickerMoreInfo(msg);
     }
@@ -94,6 +103,7 @@ public class MoreInfo extends AppCompatActivity {
     //Button that lets the user go to the plant page
     public void goToPlantPage(View view) {
         Intent intent = new Intent(MoreInfo.this, PlantPage.class);
+        intent.putExtra(PLANT,msg);
         startActivity(intent);
     }
     //Button that lets the user go to the home page
