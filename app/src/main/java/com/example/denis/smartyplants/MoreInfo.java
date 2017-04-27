@@ -47,25 +47,25 @@ public class MoreInfo extends AppCompatActivity {
         {
             MoreInfoname.setText(R.string.HyacinthName);
             MoreInfopic.setImageResource(R.drawable.hyacinthmore);
-            Moreinfo.setText(R.string.Hyacinth);
+            Moreinfo.setText(R.string.HyacinthMore);
         }
         else if(plant.equals("2"))
         {
             MoreInfoname.setText(R.string.PoisonOakName);
             MoreInfopic.setImageResource(R.drawable.poisonoakmore);
-            Moreinfo.setText(getResources().getText(R.string.PoisonOak));
+            Moreinfo.setText(getResources().getText(R.string.PoisonOakMore));
         }
         else if(plant.equals("3"))
         {
             MoreInfoname.setText(R.string.DaphneName);
-            MoreInfopic.setImageResource(R.drawable.daphnemore);
-            Moreinfo.setText(getResources().getText(R.string.Daphne));
+            MoreInfopic.setImageResource(R.drawable.daphne);
+            Moreinfo.setText(getResources().getText(R.string.DaphneMore));
         }
         else if(plant.equals("4"))
         {
             MoreInfoname.setText(R.string.DaffodilName);
-            MoreInfopic.setImageResource(R.drawable.daffodilmore);
-            Moreinfo.setText(getResources().getText(R.string.Daffodil));
+            MoreInfopic.setImageResource(R.drawable.daffodil);
+            Moreinfo.setText(getResources().getText(R.string.DaffodilMore));
         }
         else if (plant.equals("5"))
         {
@@ -76,14 +76,14 @@ public class MoreInfo extends AppCompatActivity {
         else if(plant.equals("6"))
         {
             MoreInfoname.setText(R.string.RicinusName);
-            MoreInfopic.setImageResource(R.drawable.ricinusmore);
+            MoreInfopic.setImageResource(R.drawable.ricinus);
             Moreinfo.setText(R.string.RicinusMore);
         }
 
         else if(plant.equals("7"))
         {
             MoreInfoname.setText(R.string.MachineeName);
-            MoreInfopic.setImageResource(R.drawable.machineelmore);
+            MoreInfopic.setImageResource(R.drawable.machin);
             Moreinfo.setText(R.string.MachineelMore);
         }
         else if(plant.equals("8"))
