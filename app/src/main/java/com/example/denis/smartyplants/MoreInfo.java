@@ -58,13 +58,13 @@ public class MoreInfo extends AppCompatActivity {
         else if(plant.equals("3"))
         {
             MoreInfoname.setText(R.string.DaphneName);
-            MoreInfopic.setImageResource(R.drawable.daphne);
+            MoreInfopic.setImageResource(R.drawable.daphnemore);
             Moreinfo.setText(getResources().getText(R.string.Daphne));
         }
         else if(plant.equals("4"))
         {
             MoreInfoname.setText(R.string.DaffodilName);
-            MoreInfopic.setImageResource(R.drawable.daffodil);
+            MoreInfopic.setImageResource(R.drawable.daffodilmore);
             Moreinfo.setText(getResources().getText(R.string.Daffodil));
         }
         else if (plant.equals("5"))
@@ -76,14 +76,14 @@ public class MoreInfo extends AppCompatActivity {
         else if(plant.equals("6"))
         {
             MoreInfoname.setText(R.string.RicinusName);
-            MoreInfopic.setImageResource(R.drawable.ricinus);
+            MoreInfopic.setImageResource(R.drawable.ricinusmore);
             Moreinfo.setText(R.string.RicinusMore);
         }
 
         else if(plant.equals("7"))
         {
             MoreInfoname.setText(R.string.MachineeName);
-            MoreInfopic.setImageResource(R.drawable.machin);
+            MoreInfopic.setImageResource(R.drawable.machineelmore);
             Moreinfo.setText(R.string.MachineelMore);
         }
         else if(plant.equals("8"))
