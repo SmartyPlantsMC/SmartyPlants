@@ -40,19 +40,19 @@ public class MoreInfo extends AppCompatActivity {
         if(plant.equals("0"))
         {
             MoreInfoname.setText(R.string.PoisonIvyName);
-            MoreInfopic.setImageResource(R.drawable.poisonivy);
-            Moreinfo.setText(getResources().getText(R.string.PoisonIvy));
+            MoreInfopic.setImageResource(R.drawable.poisonivymore);
+            Moreinfo.setText(R.string.PoisonIvyMore);
         }
         else if(plant.equals("1"))
         {
             MoreInfoname.setText(R.string.HyacinthName);
-            MoreInfopic.setImageResource(R.drawable.hyacinth);
-            Moreinfo.setText(getResources().getText(R.string.Hyacinth));
+            MoreInfopic.setImageResource(R.drawable.hyacinthmore);
+            Moreinfo.setText(R.string.Hyacinth);
         }
         else if(plant.equals("2"))
         {
             MoreInfoname.setText(R.string.PoisonOakName);
-            MoreInfopic.setImageResource(R.drawable.poisonoak);
+            MoreInfopic.setImageResource(R.drawable.poisonoakmore);
             Moreinfo.setText(getResources().getText(R.string.PoisonOak));
         }
         else if(plant.equals("3"))
@@ -77,25 +77,25 @@ public class MoreInfo extends AppCompatActivity {
         {
             MoreInfoname.setText(R.string.RicinusName);
             MoreInfopic.setImageResource(R.drawable.ricinus);
-            Moreinfo.setText(getResources().getText(R.string.Ricinus));
+            Moreinfo.setText(R.string.RicinusMore);
         }
 
         else if(plant.equals("7"))
         {
             MoreInfoname.setText(R.string.MachineeName);
             MoreInfopic.setImageResource(R.drawable.machin);
-            Moreinfo.setText(getResources().getText(R.string.Machineel));
+            Moreinfo.setText(R.string.MachineelMore);
         }
         else if(plant.equals("8"))
         {
             MoreInfoname.setText(R.string.CerberaName);
-            MoreInfopic.setImageResource(R.drawable.cerbera);
-            Moreinfo.setText(getResources().getText(R.string.Cerbera));
+            MoreInfopic.setImageResource(R.drawable.cerberamore);
+            Moreinfo.setText(R.string.CerberaMore);
         }
         else if(plant.equals("9"))
         {
             MoreInfoname.setText(R.string.AngelsTrumpetName);
-            MoreInfopic.setImageResource(R.drawable.angeltrumpet);
+            MoreInfopic.setImageResource(R.drawable.angelstrumpetmore);
             Moreinfo.setText(getResources().getText(R.string.AngelsTrumpet));
         }
 
