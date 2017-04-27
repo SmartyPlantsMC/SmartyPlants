@@ -5,7 +5,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
@@ -23,11 +22,11 @@
     <ImageView
         android:id="@+id/PlantPage_Image"
         android:layout_width="400dp"
-        android:layout_height="300dp"
+        android:layout_height="250dp"
         android:layout_gravity="center" />
 
     <TextView
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="10dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/PlantPage_Desc"
@@ -38,6 +37,7 @@
         />
 
     <LinearLayout
+        android:layout_weight="1"
         android:gravity="center"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -45,7 +45,7 @@
         <Button
             android:layout_marginTop="10dp"
             android:layout_width="150dp"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:id="@+id/PlantPage_PlantList"
             android:background="@color/SeaGreen"
             android:text="Plant List"
@@ -55,13 +55,14 @@
             android:layout_marginLeft="10dp"
             android:layout_marginTop="10dp"
             android:layout_width="150dp"
-            android:layout_height="40dp"
+            android:layout_height="wrap_content"
             android:id="@+id/PlantPage_Moreinfo"
             android:onClick="goToMoreInfo"
             android:background="@color/SeaGreen"
             android:text="More info"/>
     </LinearLayout>
     <com.google.android.gms.ads.AdView
+        android:layout_weight="1"
         android:layout_marginTop="10dp"
         android:id="@+id/adViewPP"
         android:layout_width="wrap_content"
