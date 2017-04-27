@@ -172,7 +172,7 @@ Button submit;
 
 
     }
-
+    //Button that takes the user to the home page
     public void goToHomePage2(View view) {
         Intent intent = new Intent(Quiz.this, MainActivity.class);
         startActivity(intent);
