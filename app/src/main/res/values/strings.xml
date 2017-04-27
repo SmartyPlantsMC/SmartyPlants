@@ -127,6 +127,20 @@
         <item name="Q12D">None of the above</item>
         <item name="Answer12">No</item>
 
+        <item name="Q13">How long do the Angel's Trumpet flowers hang?</item>
+        <item name="Q13A">20cm</item>
+        <item name="Q13B">30cm</item>
+        <item name="Q13C">50cm</item>
+        <item name="Q13D">100cm</item>
+        <item name="Answer13">50cm</item>
+
+        <item name="Q14">What is Nightshade's nickname?</item>
+        <item name="Q14A">Friendly Nightshade</item>
+        <item name="Q14B">Deadly Nightshade</item>
+        <item name="Q14C">Dark Shade</item>
+        <item name="Q14D">None of the above</item>
+        <item name="Answer14">Deadly Nightshade</item>
+
 
 
 
