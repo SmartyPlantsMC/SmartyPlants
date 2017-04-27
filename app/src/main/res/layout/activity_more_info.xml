@@ -30,7 +30,7 @@
         android:layout_height="250dp"
         android:id="@+id/MoreInfo_Pic"
         android:layout_gravity="center"
-        android:src="@drawable/identifypoisonivy"/>
+        />
 
     <TextView
         android:textColor="@color/Black"

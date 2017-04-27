@@ -96,7 +96,7 @@ public class MoreInfo extends AppCompatActivity {
         {
             MoreInfoname.setText(R.string.AngelsTrumpetName);
             MoreInfopic.setImageResource(R.drawable.angelstrumpetmore);
-            Moreinfo.setText(getResources().getText(R.string.AngelsTrumpet));
+            Moreinfo.setText(getResources().getText(R.string.AngelTrumpetMore));
         }
 
     }
