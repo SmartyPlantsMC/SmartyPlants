@@ -47,25 +47,25 @@ public class MoreInfo extends AppCompatActivity {
         {
             MoreInfoname.setText(R.string.HyacinthName);
             MoreInfopic.setImageResource(R.drawable.hyacinthmore);
-            Moreinfo.setText(R.string.Hyacinth);
+            Moreinfo.setText(R.string.HyacinthMore);
         }
         else if(plant.equals("2"))
         {
             MoreInfoname.setText(R.string.PoisonOakName);
             MoreInfopic.setImageResource(R.drawable.poisonoakmore);
-            Moreinfo.setText(getResources().getText(R.string.PoisonOak));
+            Moreinfo.setText(getResources().getText(R.string.PoisonOakMore));
         }
         else if(plant.equals("3"))
         {
             MoreInfoname.setText(R.string.DaphneName);
             MoreInfopic.setImageResource(R.drawable.daphne);
-            Moreinfo.setText(getResources().getText(R.string.Daphne));
+            Moreinfo.setText(getResources().getText(R.string.DaphneMore));
         }
         else if(plant.equals("4"))
         {
             MoreInfoname.setText(R.string.DaffodilName);
             MoreInfopic.setImageResource(R.drawable.daffodil);
-            Moreinfo.setText(getResources().getText(R.string.Daffodil));
+            Moreinfo.setText(getResources().getText(R.string.DaffodilMore));
         }
         else if (plant.equals("5"))
         {
