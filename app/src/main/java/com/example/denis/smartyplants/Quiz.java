@@ -111,7 +111,7 @@ Button submit;
 
         quizQuestions.setText(Answers[y]);
 
-        //radioButton.setText(Questions[0]);
+
 
         int start = y+1;
         int end = start +4;
@@ -134,7 +134,7 @@ Button submit;
 
 
 
-        //quest1.setText(Questions[0]);
+      
 
     }
     //The check array contains all the values for the users choices for each radiogroup
